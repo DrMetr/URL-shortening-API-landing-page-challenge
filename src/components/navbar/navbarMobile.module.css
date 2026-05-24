@@ -1,0 +1,45 @@
+.wrapper {
+  position: relative;
+}
+
+.img {
+  filter: brightness(100%);
+}
+
+.nav {
+  background-color: var(--purple950);
+  padding: 1rem;
+  border-radius: 10px;
+  width: 300px;
+  position: absolute;
+  top: 2lh;
+  left: -150%;
+}
+
+.ul {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0;
+}
+
+.li {
+  list-style-type: none;
+  width: 100%;
+}
+
+.text {
+  color: var(--gray0);
+}
+
+.hr {
+  height: 1px;
+  background-color: var(--gray500);
+  color: transparent;
+  border: none;
+}
+
+.signUp {
+  width: 100%;
+}

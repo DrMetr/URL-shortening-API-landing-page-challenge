@@ -1,0 +1,48 @@
+.section {
+  background-color: var(--gray200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h2 {
+  color: var(--gray950);
+  text-align: center;
+}
+
+.p {
+  text-align: center;
+  width: 50%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: stretch;
+  gap: 4lh;
+  position: relative;
+  margin: 3lh 0;
+  width: fit-content;
+
+  @media (min-width: 1440px) {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+
+.thinLine {
+  position: absolute;
+  background-color: var(--blue400);
+  height: 800px;
+  width: 12px;
+  left: 166px;
+  top: 0;
+
+  @media (min-width: 1440px) {
+    height: 12px;
+    width: 800px;
+    top: 50%;
+    left: 250px;
+  }
+}

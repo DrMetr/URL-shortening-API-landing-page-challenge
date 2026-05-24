@@ -1,0 +1,66 @@
+.base {
+  border-radius: 30px;
+  vertical-align: baseline;
+  border: none;
+  color: var(--gray0);
+  font-size: large;
+  padding: 0.5lh 1.5lh;
+  transition: 0.25s ease-in-out;
+}
+
+.base:hover {
+  cursor: pointer;
+}
+
+.base:active {
+  transition: 0.01s ease-in;
+}
+
+.default {
+  background-color: var(--blue400);
+}
+
+.default:hover,
+.default:focus {
+  background-color: var(--blue400-50);
+}
+
+.default:active {
+  background-color: var(--purple950);
+}
+
+.blank {
+  background-color: transparent;
+  color: var(--gray500);
+}
+
+.blank:hover,
+.blank:focus {
+  color: var(--gray500);
+}
+
+.blank:active {
+  color: var(--gray900);
+}
+
+.square,
+.square:hover,
+.square:focus,
+.square:active,
+.squareCopied {
+  border-radius: 5px;
+}
+
+.square {
+  background-color: var(--blue400);
+}
+
+.square:hover,
+.square:focus {
+  background-color: var(--blue400-50);
+}
+
+.square:active,
+.squareCopied {
+  background-color: var(--purple950);
+}

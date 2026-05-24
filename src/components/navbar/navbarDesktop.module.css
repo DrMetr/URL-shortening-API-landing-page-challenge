@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.sects {
+  flex-grow: 3;
+}
+
+.li {
+  list-style-type: none;
+}
