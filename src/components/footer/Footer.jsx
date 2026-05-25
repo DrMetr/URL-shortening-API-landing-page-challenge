@@ -6,7 +6,7 @@ const Footer = () => (
   <>
     <footer className={styles.footer}>
       <img
-        src="/public/images/logo_white.svg"
+        src={process.env.PUBLIC_URL + "/public/images/logo_white.svg"}
         alt="Shortly"
         className={styles.img}
       />
@@ -26,7 +26,7 @@ const Footer = () => (
         {links.map((link) => (
           <li key={link.title} className={styles.li}>
             <a>
-              <img src={link.image} alt={link.title} />
+              <img src={process.env.PUBLIC_URL + link.image} alt={link.title} />
             </a>
           </li>
         ))}

@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section className={styles.section}>
       <img
-        src="/public/images/illustration-working.svg"
+        src={process.env.PUBLIC_URL + "/public/images/illustration-working.svg"}
         alt="working"
         className={styles.img}
       />

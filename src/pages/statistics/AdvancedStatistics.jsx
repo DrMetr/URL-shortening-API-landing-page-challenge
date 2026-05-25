@@ -15,7 +15,7 @@ const AdvancedStatistics = () => (
         <SCard
           key={item.key}
           header={item.header}
-          image={item.image}
+          image={process.env.PUBLIC_URL + item.image}
           text={item.text}
           variant={item.key}
         />
