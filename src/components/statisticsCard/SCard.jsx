@@ -5,7 +5,7 @@ const SCard = ({ image, header, text, variant, className = "" }) => {
   return (
     <div className={classes}>
       <div className={styles.imageWrapper}>
-        <img src={process.env.PUBLIC_URL + image} alt={header} />
+        <img src={image} alt={header} />
       </div>
       <h3 className={styles.header}>{header}</h3>
       <p className={styles.paragraph}>{text}</p>

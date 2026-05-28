@@ -25,10 +25,7 @@ const Navbar = () => {
   return (
     <header className={styles.header}>
       <a href="#">
-        <img
-          src={process.env.PUBLIC_URL + "public/images/logo.svg"}
-          alt="Shortly"
-        />
+        <img src="images/logo.svg" alt="Shortly" />
       </a>
       {width > 1440 ? <NavbarDesktop /> : <NavbarMobile />}
     </header>

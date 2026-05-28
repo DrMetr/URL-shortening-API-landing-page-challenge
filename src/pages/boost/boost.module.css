@@ -1,6 +1,6 @@
 .section {
   background-color: var(--purple950);
-  background-image: url("/public/images/bg-boost-mobile.svg");
+  background-image: url("/images/bg-boost-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
