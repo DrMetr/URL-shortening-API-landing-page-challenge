@@ -12,7 +12,7 @@ const NavbarMobile = () => {
   return (
     <div className={styles.wrapper}>
       <Button onClick={onClick} variant="blank">
-        <img src="public/images/burger_menu.svg" className={styles.img} />
+        <img src="/images/burger_menu.svg" className={styles.img} />
       </Button>
       {showNavigation === true && (
         <nav className={styles.nav}>
